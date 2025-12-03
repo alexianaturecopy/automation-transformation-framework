@@ -1,0 +1,16 @@
+Process_ID,Process_Name,Business_Unit,Frequency,Steps,Manual_Steps,Automation_Potential,Priority
+P001,Order Entry,Sales,Daily,18,15,High,1
+P002,Invoice Generation,Finance,Daily,8,6,High,1
+P003,Cash Application,Finance,Daily,6,5,High,1
+P004,Bank Reconciliation,Finance,Daily,12,10,High,1
+P005,Month-End Close,Finance,Monthly,45,38,Medium,2
+P006,IC Reconciliation,Finance,Monthly,12,10,High,2
+P007,Inventory Replenishment,Warehouse,Daily,10,8,High,1
+P008,Demand Forecasting,Supply Chain,Weekly,8,7,Medium,2
+P009,Tax Provision,Finance,Quarterly,20,18,Medium,3
+P010,R&D Capitalization,Finance,Quarterly,8,7,Medium,3
+P011,Approval Workflows,All,Daily,5,5,High,1
+P012,Reporting,Finance,Monthly,15,12,Medium,2
+P013,Budget vs Actual,Finance,Monthly,10,8,Medium,2
+P014,Variance Analysis,Finance,Monthly,8,7,Low,3
+P015,Production Tracking,Manufacturing,Daily,10,8,Medium,2

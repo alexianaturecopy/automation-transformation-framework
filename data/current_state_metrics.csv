@@ -1,0 +1,8 @@
+Process,Cycle_Time_Days,Manual_Hours_Annual,Error_Rate_Pct,Cost_Annual,FTE_Required
+Order-to-Cash,12,8500,4.2,2300000,5.5
+Month-End Close,10,15000,2.5,3375000,15
+Inventory Management,60,6000,8.0,4500000,4
+Intercompany Transactions,8,4500,5.1,800000,3
+R&D Capitalization,90,2000,6.2,600000,1.5
+Tax Provision,5,3000,3.5,1200000,2
+Procure-to-Pay,8,6000,3.8,800000,4

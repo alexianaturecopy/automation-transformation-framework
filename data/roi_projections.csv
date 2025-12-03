@@ -1,0 +1,5 @@
+Phase,Duration_Months,Investment,Annual_Benefit,Cumulative_Investment,Cumulative_Benefit,Payback_Month
+Phase 1: Foundation,3,450000,500000,450000,125000,0
+Phase 2: Core Automation,6,1500000,3500000,1950000,1875000,0
+Phase 3: Advanced,9,1200000,5000000,3150000,5000000,13
+Phase 4: Scale,6,650000,9200000,3800000,9200000,14
