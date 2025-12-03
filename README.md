@@ -218,15 +218,6 @@ Phase 4: Scale & Optimize (Months 19-24)
 
 ---
 
-## 🎤 **Interview Talking Points**
-
-### **Opening Statement**
-> "I developed a comprehensive automation transformation framework for a multi-national manufacturing enterprise. It's a risk-managed, phased approach designed for conservative organizations - starting with quick wins to prove ROI, then scaling systematically. The framework addresses five core automation domains and projects $9.2M in annual savings with 14-month payback. You can see the complete framework on my GitHub."
-
-### **When Asked: "How do you approach digital transformation?"**
-> "I believe transformation must be pragmatic, especially in conservative organizations. Start with the existing technology stack - don't force unnecessary change. Add an automation layer on top. Prove value with 90-day quick wins. Then scale systematically. My framework demonstrates this: we keep Oracle as ERP core, add Python automation, and implement in four phases with clear ROI at each stage."
-
----
 
 ## 🔗 **Related Projects**
 
@@ -239,17 +230,12 @@ Check out my other portfolio projects demonstrating CFO/COO capabilities:
 
 ## 📞 **Author**
 
-**Alexia** | CFO | Venture Partner | Digital Transformation Leader  
+**Alexia** | CPA | Venture Partner | Digital Transformation Leader  
 
 - **GitHub:** [@alexianaturecopy](https://github.com/alexianaturecopy)
 
 ---
 
-## 📄 **License**
-
-MIT License
-
----
 
 **Framework Status:** ✅ Complete  
-**Last Updated:** December 2024
+**Last Updated:** November 2025
