@@ -597,8 +597,8 @@ elif page == "Transformation Journey":
             with col3:
                 st.metric("Risk Level", phase['risk'])
             with col4:
-                # Parse benefit value (handles both K and M)
-                benefit_str = phase['benefit'].replace('$', '').strip()
+                # Parse benefit value (handles both K and M, and extra text)
+                benefit_str = phase['benefit'].replace('$', '').strip().split()[0]  # Take only first part before space
                 if 'M' in benefit_str:
                     roi_val = float(benefit_str.replace('M', ''))
                 elif 'K' in benefit_str:
@@ -606,8 +606,8 @@ elif page == "Transformation Journey":
                 else:
                     roi_val = float(benefit_str)
                 
-                # Parse investment value (handles both K and M)
-                inv_str = phase['investment'].replace('$', '').strip()
+                # Parse investment value (handles both K and M, and extra text)
+                inv_str = phase['investment'].replace('$', '').strip().split()[0]  # Take only first part before space
                 if 'M' in inv_str:
                     inv_val = float(inv_str.replace('M', ''))
                 elif 'K' in inv_str:
@@ -670,8 +670,13 @@ elif page == "Transformation Journey":
     st.markdown('<div class="sub-header">💰 Financial Projections by Phase</div>', unsafe_allow_html=True)
     
     display_roi = roi_projections.copy()
-    display_roi.columns = ['Phase', 'Investment ($M)', 'Annual Benefit ($M)', 
-                          'Cumulative Benefit ($M)', 'Payback (Months)']
+    display_roi.columns = ['Phase', 'Duration (Months)', 'Investment ($M)', 'Annual Benefit ($M)', 
+                          'Cumulative Investment ($M)', 'Cumulative Benefit ($M)', 'Payback (Months)']
+    
+    # Convert numeric columns from dollars to millions for display
+    for col in ['Investment ($M)', 'Annual Benefit ($M)', 'Cumulative Investment ($M)', 'Cumulative Benefit ($M)']:
+        display_roi[col] = (display_roi[col] / 1_000_000).round(1)
+    
     st.dataframe(display_roi, use_container_width=True, hide_index=True)
 
 # =======================
