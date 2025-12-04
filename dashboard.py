@@ -597,8 +597,24 @@ elif page == "Transformation Journey":
             with col3:
                 st.metric("Risk Level", phase['risk'])
             with col4:
-                roi_val = float(phase['benefit'].replace('$', '').replace('M', '').split()[0])
-                inv_val = float(phase['investment'].replace('$', '').replace('K', '').replace('M', '')) / (1000 if 'K' in phase['investment'] else 1)
+                # Parse benefit value (handles both K and M)
+                benefit_str = phase['benefit'].replace('$', '').strip()
+                if 'M' in benefit_str:
+                    roi_val = float(benefit_str.replace('M', ''))
+                elif 'K' in benefit_str:
+                    roi_val = float(benefit_str.replace('K', '')) / 1000
+                else:
+                    roi_val = float(benefit_str)
+                
+                # Parse investment value (handles both K and M)
+                inv_str = phase['investment'].replace('$', '').strip()
+                if 'M' in inv_str:
+                    inv_val = float(inv_str.replace('M', ''))
+                elif 'K' in inv_str:
+                    inv_val = float(inv_str.replace('K', '')) / 1000
+                else:
+                    inv_val = float(inv_str)
+                
                 st.metric("ROI Multiple", f"{(roi_val/inv_val):.1f}x")
             
             st.markdown("**Key Activities:**")
