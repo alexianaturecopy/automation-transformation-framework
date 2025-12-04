@@ -281,35 +281,8 @@ Comprehensive transformation across entire enterprise:
 - ✅ Benefit tracking methodology with monthly reporting
 - ✅ Gate review process with clear success criteria
 
----
+-
 
-## 🎤 **Interview Talking Points**
-
-### **Opening Statement**
-> "I developed a comprehensive automation transformation framework for multi-national manufacturing. It's not just documentation - I built an interactive Streamlit dashboard and a complete Board presentation deck. The framework addresses 10 automation domains and projects $9.2M in annual savings with 14-month payback. You can see the live demo at [your-URL] and explore the complete framework on my GitHub."
-
-### **When Asked: "How do you approach digital transformation?"**
-> "I believe transformation must be pragmatic, especially in conservative organizations. My framework demonstrates this: start with the existing technology stack, add an automation layer on top, prove value with 90-day quick wins, then scale systematically. I designed this for a multi-national manufacturer - keeping Oracle as ERP core while adding Python automation. The interactive dashboard I built shows the before/after transformation across all metrics."
-
-### **When Asked: "Show me your technical capabilities"**
-> "Let me pull up the dashboard I built. [Open Streamlit app] This is a 6-page interactive application - notice the before/after visualizations, the ROI calculator with live sensitivity analysis, and comprehensive risk assessment. The data comes from CSV files I generated based on manufacturing benchmarks. There's also a complete Board presentation deck. The entire codebase is on GitHub - over 1,000 lines of production-ready Python."
-
----
-
-## 🔗 **Related Projects**
-
-**Complete Portfolio - CFO/COO Capabilities:**
-
-- **[Executive Operations Dashboard](https://github.com/alexianaturecopy/yequan-operation-finance--transformation)** - Multi-unit P&L tracking, live Streamlit app
-- **[Resource Planning Engine](https://github.com/alexianaturecopy/resource-planning-engine)** - PuLP-based budget optimization, 2.72x ROI
-- **Automation Transformation Framework** (This Repository) - Strategic framework + Interactive demo
-
-**Together these demonstrate:**
-1. **Technical implementation** (Repository #1 - Build systems)
-2. **Advanced analytics** (Repository #2 - Optimize operations)
-3. **Strategic transformation** (Repository #3 - Lead change)
-
----
 
 ## 📂 **Repository Structure**
 
