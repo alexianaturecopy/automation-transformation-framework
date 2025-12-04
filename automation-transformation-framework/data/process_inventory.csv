@@ -1,0 +1,21 @@
+process_id,process_name,business_unit,frequency,total_steps,manual_steps,automation_potential,priority
+P001,Quote to Order,Sales,Daily,18,15,High,1
+P002,Order Fulfillment,Operations,Daily,24,18,High,1
+P003,Invoice Generation,Finance,Daily,12,10,High,1
+P004,Cash Application,Finance,Daily,15,12,High,1
+P005,Inventory Replenishment,Supply Chain,Daily,20,16,High,2
+P006,Demand Forecasting,Supply Chain,Weekly,15,12,High,2
+P007,Warehouse Receiving,Logistics,Daily,18,15,Medium,2
+P008,Production Scheduling,Manufacturing,Daily,22,18,High,1
+P009,Quality Inspections,Quality,Daily,16,14,High,2
+P010,CAPA Process,Quality,As Needed,25,20,Medium,3
+P011,Vendor Onboarding,Procurement,Monthly,30,25,Medium,3
+P012,PO Creation,Procurement,Daily,14,10,High,2
+P013,3-Way Match,Procurement,Daily,12,10,High,1
+P014,Payment Processing,Treasury,Weekly,16,12,High,2
+P015,Intercompany Reconciliation,Finance,Monthly,20,18,High,1
+P016,Tax Provision,Finance,Monthly,18,15,High,2
+P017,Month-End Close,Finance,Monthly,38,30,High,1
+P018,R&D Cost Allocation,Finance,Quarterly,25,22,Medium,3
+P019,Consolidation,Finance,Monthly,30,25,High,2
+P020,Cash Forecast,Treasury,Weekly,14,12,High,2
