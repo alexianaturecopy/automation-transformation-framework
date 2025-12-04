@@ -74,34 +74,20 @@
 
 ## 🏗️ **Framework Components**
 
-### **[📐 Architecture](architecture/)**
-- **[Current State Architecture](architecture/current_state.md)** - Existing system landscape
-- **[Target State Architecture](architecture/target_state.md)** - Future-state design
-- **[Integration Architecture](architecture/integration_architecture.md)** - System connectivity map
-- **[Architecture Diagrams](architecture/diagrams/)** - Visual representations
+### **📐 Architecture**
+- **[Current State Architecture](architecture/current_state.md)** - Existing system landscape with process bottlenecks and technical debt assessment
 
-### **[🚀 Implementation](implementation/)**
-- **[Implementation Roadmap](implementation/roadmap.md)** - Phased 24-month plan
-- **[Risk Mitigation Strategy](implementation/risk_mitigation.md)** - Risk management approach
-- **[Change Management Plan](implementation/change_management.md)** - Organizational change strategy
-- **[Quick Wins (90 Days)](implementation/quick_wins.md)** - Phase 1 priorities
+### **🚀 Implementation**
+- **[Implementation Roadmap](implementation/roadmap.md)** - Phased 24-month plan with resource allocation and gate reviews
 
-### **[💼 Business Cases](business_cases/)**
-- **[Order-to-Cash Automation](business_cases/sales_to_cash.md)**
-- **[Inventory Management](business_cases/inventory_management.md)**
-- **[Intercompany Transactions](business_cases/intercompany.md)**
-- **[Accounting & Tax](business_cases/accounting_tax.md)**
-- **[R&D Capitalization](business_cases/rd_capitalization.md)**
+### **💼 Business Cases**
+- **[Order-to-Cash Automation](business_cases/sales_to_cash.md)** - Detailed business case with ROI analysis and implementation plan
 
-### **[📊 Data & Metrics](data/)**
-- Sample metrics demonstrating before/after states
-- ROI projections and calculations
-- Process inventory and complexity analysis
-
-### **[📋 Templates](templates/)**
-- Business case template
-- ROI calculator
-- Risk assessment matrix
+### **📊 Data & Metrics**
+- **[Current State Metrics](data/current_state_metrics.csv)** - Before automation (7 processes)
+- **[Target State Metrics](data/target_state_metrics.csv)** - After automation (7 processes)
+- **[ROI Projections](data/roi_projections.csv)** - Financial projections by phase
+- **[Process Inventory](data/process_inventory.csv)** - 15 processes mapped with automation potential
 
 ---
 
@@ -137,7 +123,6 @@
 ---
 
 ## 📈 **Implementation Timeline**
-
 ```
 Phase 1: Foundation (Months 1-3)
 ├─ Process documentation
@@ -218,6 +203,18 @@ Phase 4: Scale & Optimize (Months 19-24)
 
 ---
 
+<<<<<<< HEAD
+=======
+## 🎤 **Interview Talking Points**
+
+### **Opening Statement**
+> "I developed a comprehensive automation transformation framework for a multi-national manufacturing enterprise. It's a risk-managed, phased approach designed for conservative organizations - starting with quick wins to prove ROI, then scaling systematically. The framework addresses five core automation domains and projects $9.2M in annual savings with 14-month payback."
+
+### **When Asked: "How do you approach digital transformation?"**
+> "I believe transformation must be pragmatic, especially in conservative organizations. Start with the existing technology stack - don't force unnecessary change. Add an automation layer on top. Prove value with 90-day quick wins. Then scale systematically. My framework demonstrates this: we keep Oracle as ERP core, add Python automation, and implement in four phases with clear ROI at each stage."
+
+---
+>>>>>>> 1ca0fae (Fix README links - remove references to non-existent files)
 
 ## 🔗 **Related Projects**
 
@@ -228,14 +225,44 @@ Check out my other portfolio projects demonstrating CFO/COO capabilities:
 
 ---
 
+## 📂 **Repository Structure**
+```
+automation-transformation-framework/
+├── README.md                           # This file
+├── FRAMEWORK.md                        # Complete framework document
+├── QUICKSTART.md                       # User guide
+├── IMPLEMENTATION_COMPLETE.md          # Delivery summary
+├── architecture/
+│   └── current_state.md               # System landscape analysis
+├── implementation/
+│   └── roadmap.md                     # 24-month implementation plan
+├── business_cases/
+│   └── sales_to_cash.md               # Order-to-Cash business case
+├── data/
+│   ├── current_state_metrics.csv
+│   ├── target_state_metrics.csv
+│   ├── roi_projections.csv
+│   └── process_inventory.csv
+└── templates/                          # Ready for expansion
+```
+
+---
+
 ## 📞 **Author**
 
 **Alexia** | CPA | Venture Partner | Digital Transformation Leader  
 
 - **GitHub:** [@alexianaturecopy](https://github.com/alexianaturecopy)
 
+*Transitioning from traditional finance into Web3/AI/Cybersecurity sectors with proven expertise in operational transformation, financial systems, and strategic planning.*
+
 ---
 
 
 **Framework Status:** ✅ Complete  
+<<<<<<< HEAD
 **Last Updated:** November 2025
+=======
+**Last Updated:** December 2024  
+**Version:** 1.0
+>>>>>>> 1ca0fae (Fix README links - remove references to non-existent files)
