@@ -1,7 +1,7 @@
 # Automation Transformation Framework
 
 **Strategic Framework + Interactive Dashboard + Executive Presentation for Digital Transformation**
-
+![Resource Planning Engine Demo](screenshots/AutomationTransDemo.gif)](https://automation-transformation-framework-6qt3tmdv9twwcj8hgmappzn.streamlit.app/)
 ![Status](https://img.shields.io/badge/Status-Complete-success)
 ![Industry](https://img.shields.io/badge/Industry-Manufacturing-blue)
 ![Type](https://img.shields.io/badge/Type-Strategic%20Framework-orange)
