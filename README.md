@@ -247,7 +247,7 @@ Comprehensive transformation across entire enterprise:
 
 ---
 
-## 💡 **What This Framework Demonstrates**
+## 💡 **This Framework Demonstrates**
 
 
 **Strategic Leadership:**
@@ -312,42 +312,12 @@ automation-transformation-framework/
 
 ---
 
-## 🚀 **Quick Start**
-
-### **Run the Interactive Dashboard**
-```bash
-# Clone repository
-git clone https://github.com/alexianaturecopy/automation-transformation-framework.git
-cd automation-transformation-framework
-
-# Install dependencies
-pip install -r requirements.txt --break-system-packages
-
-# Launch dashboard
-streamlit run dashboard.py
-```
-
-Dashboard opens at `http://localhost:8501`
-
-### **View the Presentation**
-```bash
-# Read on GitHub or convert to PowerPoint
-npm install -g @marp-team/marp-cli
-cd presentation
-marp EXECUTIVE_BOARD_DECK.md --pptx -o Executive_Deck.pptx
-```
-
-### **Deploy to Streamlit Cloud**
-See [DEPLOYMENT.md](DEPLOYMENT.md) for complete instructions.
-
----
-
 ## 📞 **Author**
 
-**Alexia** | CFO | Venture Partner | Digital Transformation Leader  
+**Alexia ** | CFO | Venture Partner | Digital Transformation Leader  
 
 - **GitHub:** [@alexianaturecopy](https://github.com/alexianaturecopy)
-- **LinkedIn:** [Connect with me](#)
+- **LinkedIn:** [https://www.linkedin.com/in/ye-quan-8b610820a/](#)
 
 *Transitioning from traditional finance into Web3/AI/Cybersecurity sectors with proven expertise in operational transformation, financial systems, and strategic planning.*
 
